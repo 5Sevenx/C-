@@ -99,7 +99,8 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5
 			]
 		}
 	],
@@ -113,22 +114,27 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Head/Step1/Factorial.h",
+			"path" : "Head/C1/Factorial.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Head/Step1/StrLen.h",
+			"path" : "Head/C1/StrLen.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Head/Step1/ArrCnt.h",
+			"path" : "Head/C1/ArrCnt.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Head/Step1/Swap.h",
+			"path" : "Head/C1/Swap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Head/C2/ArrPtr.h",
 			"sourceGroupIndex" : 1
 		}
 	],
