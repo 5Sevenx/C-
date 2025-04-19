@@ -4,7 +4,7 @@
 int StringLength( const char* ch );
 
 
-inline int StrLen() {
+inline int OwnStrLen() {
 
     cout << "Enter a string, and I will output the number of characters contained therein.\n" ;
 

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-inline int FactMain() {
+inline int Factorital() {
    int n;
    cout << "Enter a number to make a factorial:";
    cin >> n;

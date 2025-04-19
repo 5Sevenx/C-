@@ -1,12 +1,4 @@
 # ninja log v6
-4	393	7667535843402192	CMakeFiles/PriorityOperations.dir/main.cpp.obj	bd7f49dfebdd1427
-394	464	7667535847301253	PriorityOperations.exe	30ddc73d73226b1
-1	272	7667593661545165	build.ninja	cd919166c923e578
-3	372	7667610969905473	CMakeFiles/PriorityOperations.dir/main.cpp.obj	bd7f49dfebdd1427
-373	484	7667610973594086	PriorityOperations.exe	30ddc73d73226b1
-4	416	7667620747718618	CMakeFiles/PriorityOperations.dir/main.cpp.obj	bd7f49dfebdd1427
-416	513	7667620751837378	PriorityOperations.exe	30ddc73d73226b1
-12	406	7667626922472618	CMakeFiles/PriorityOperations.dir/main.cpp.obj	bd7f49dfebdd1427
-407	493	7667626926424296	PriorityOperations.exe	30ddc73d73226b1
-13	431	7667628016987046	CMakeFiles/PriorityOperations.dir/main.cpp.obj	bd7f49dfebdd1427
-431	498	7667628021186815	PriorityOperations.exe	30ddc73d73226b1
+4	461	7668068240529284	CMakeFiles/PriorityOperations.dir/main.cpp.obj	bd7f49dfebdd1427
+461	534	7668068245104447	PriorityOperations.exe	30ddc73d73226b1
+1	272	7668068946242235	build.ninja	cd919166c923e578

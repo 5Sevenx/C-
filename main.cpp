@@ -5,10 +5,11 @@
 
 
 #include "Head/C2/ArrPtr.h"
-
+#include "Head/C2/DynArr.h"
 
 
 #include <iostream>
+
 
 using namespace std;
 
@@ -19,24 +20,25 @@ int main() {
    // int bc1 = 10;
    // int arrc1[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
    //
-   // ArrCount(arrc1);
+   // ArrayCount(arrc1);
    //
-   // swap(ac1,bc1);
+   // Swao(ac1,bc1);
    //
-   // FactMain();
+   // Factorital();
    //
-   // StrLen();
+   // OwnStrLen();
    //------------------------------------------------------------------------------
 
-   int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+   // int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+   //
+   // int *ptr = arr;
+   //
+   // int size = sizeof(arr) / sizeof(arr[0]);
+   //
+   //
+   // PointerArray(ptr,size);
 
-   int *ptr = arr;
-
-   int size = sizeof(arr) / sizeof(arr[0]);
-
-
-   PtrArr(ptr,size);
-
+   DynamicArray();
 
    return 0;
 }
