@@ -10,6 +10,8 @@
 
 #include <iostream>
 
+#include "Head/C2/CpArrPtr.h"
+
 
 using namespace std;
 
@@ -29,16 +31,20 @@ int main() {
    // OwnStrLen();
    //------------------------------------------------------------------------------
 
-   // int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int arrc2[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    int size = sizeof(arrc2) / sizeof(arrc2[0]);
+
+    int *newArrc2 = new int[size];
    //
-   // int *ptr = arr;
-   //
-   // int size = sizeof(arr) / sizeof(arr[0]);
-   //
+   // int *ptr = arrc2;
+
    //
    // PointerArray(ptr,size);
 
-   DynamicArray();
+   // DynamicArray();
+
+   ArrayCopy(arrc2, newArrc2, size);
 
    return 0;
 }

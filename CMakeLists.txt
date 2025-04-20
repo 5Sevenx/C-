@@ -10,4 +10,5 @@ add_executable(PriorityOperations main.cpp
         Head/C1/Swap.h
         Head/C2/ArrPtr.h
         Head/C2/DynArr.h
+        Head/C2/CpArrPtr.h
 )
