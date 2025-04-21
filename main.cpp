@@ -1,16 +1,22 @@
 #include "Head/C1/Factorial.h"
 #include "Head/C1/Swap.h"
-#include "Head/C1/ArrCnt.h"
-#include "Head/C1/StrLen.h"
+#include "Head/C1/ArrayCount.h"
+#include "Head/C1/OwnStrLen.h"
 
 
-#include "Head/C2/ArrPtr.h"
-#include "Head/C2/DynArr.h"
+
+#include "Head/C2/PointerArray.h"
+#include "Head/C2/DynamicArray.h"
+#include "Head/C2/ArrayCopy.h"
 
 
-#include <iostream>
 
-#include "Head/C2/CpArrPtr.h"
+#include "Head/C3/Struct.h"
+#include "Head/C3/Rectangle.h"
+
+
+#include "Head/C2/ArrayCopy.h"
+#include "Head/C3/Rectangle.h"
 
 
 using namespace std;
@@ -18,33 +24,46 @@ using namespace std;
 
 int main() {
    //--------------------------------------C1--------------------------------------
+
    // int ac1 = 5;
+
    // int bc1 = 10;
+
    // int arrc1[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-   //
+
    // ArrayCount(arrc1);
-   //
-   // Swao(ac1,bc1);
-   //
+
+   // Swap(ac1,bc1);
+
    // Factorital();
-   //
+
    // OwnStrLen();
+
    //------------------------------------------------------------------------------
 
-    int arrc2[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    int size = sizeof(arrc2) / sizeof(arrc2[0]);
+    //--------------------------------------C2--------------------------------------
+    // int arrc2[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    int *newArrc2 = new int[size];
-   //
-   // int *ptr = arrc2;
+    // int size = sizeof(arrc2) / sizeof(arrc2[0]);
 
-   //
-   // PointerArray(ptr,size);
+    // int *newArrc2 = new int[size];
 
-   // DynamicArray();
+    // int *ptr = arrc2;
 
-   ArrayCopy(arrc2, newArrc2, size);
+    // PointerArray(ptr,size);
+
+    // DynamicArray();
+
+    // ArrayCopy(arrc2, newArrc2, size);
+    //------------------------------------------------------------------------------
+
+
+    // Struct();
+
+    rectangle(2,2);
+
+
 
    return 0;
 }
