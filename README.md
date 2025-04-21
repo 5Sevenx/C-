@@ -12,9 +12,16 @@ Ive just found some challenges to work on. I think parts of my code can be used 
 │   └── Factorial
 │       StringLength(own strlen)
 │       Swap
-│       Array count 
+│       Array count
+│
 ├── C2/
 │   └──Array ptr count
 │      Dynamic Array
+│      Array copy
+│
+│
+├── C3/
+│   └──Rectangle
+│      Struct
 ```
 
