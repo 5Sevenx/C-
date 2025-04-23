@@ -1,3 +1,0 @@
-C:/Users/qwert/CLionProjects/Cases/cmake-build-debug/CMakeFiles/PriorityOperations.dir
-C:/Users/qwert/CLionProjects/Cases/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/qwert/CLionProjects/Cases/cmake-build-debug/CMakeFiles/rebuild_cache.dir
