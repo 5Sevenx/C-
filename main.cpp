@@ -13,18 +13,15 @@
 
 #include "Head/C3/Struct.h"
 #include "Head/C3/Rectangle.h"
-
-
-#include "Head/C2/ArrayCopy.h"
-#include "Head/C3/Rectangle.h"
+#include "Head/C3/ElementCounter.h"
 
 
 using namespace std;
 
 
 int main() {
-   //--------------------------------------C1--------------------------------------
 
+   //--------------------------------------C1--------------------------------------
    // int ac1 = 5;
 
    // int bc1 = 10;
@@ -38,7 +35,6 @@ int main() {
    // Factorital();
 
    // OwnStrLen();
-
    //------------------------------------------------------------------------------
 
 
@@ -58,12 +54,18 @@ int main() {
     // ArrayCopy(arrc2, newArrc2, size);
     //------------------------------------------------------------------------------
 
-
+    //--------------------------------------C3--------------------------------------
     // Struct();
 
-    rectangle(2,2);
 
+    // rectangle rec(2,2);
+    //
+    // cout << "Area: " << rec.area() << endl;
+    // cout << "Perimeter: " << rec.perimeter() << endl;
+    //
 
+    ElementeCtr();
+    //------------------------------------------------------------------------------
 
    return 0;
 }

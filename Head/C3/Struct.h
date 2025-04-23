@@ -39,7 +39,7 @@ inline void CreateStudent(int size) {
 inline int Struct() {
 
     int NOfStudents;
-    cout << "enter number of students:" << endl;
+    cout << "Enter number of students:" << endl;
     cin >> NOfStudents;
 
     CreateStudent(NOfStudents);

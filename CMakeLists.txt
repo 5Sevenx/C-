@@ -13,4 +13,5 @@ add_executable(PriorityOperations main.cpp
         Head/C2/ArrayCopy.h
         Head/C3/Struct.h
         Head/C3/Rectangle.h
+        Head/C3/ElementCounter.h
 )

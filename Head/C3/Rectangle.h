@@ -1,12 +1,13 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 
-class  rectangle {
-    private:
+class  Rectangle {
+
+    //no private needed cuz its already private when its defined before public
     double width, length;
 
     public:
-    rectangle(double width, double length) {
+    Rectangle(double width, double length) {
         this->width = width;
         this->length = length;
     };
