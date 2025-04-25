@@ -1,6 +1,7 @@
 #ifndef EXECUTIONFUNCTION_H
 #define EXECUTIONFUNCTION_H
 
+#include <functional>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -11,41 +12,32 @@
 using namespace std;
 
 
-typedef (*MethodArray)(int[]);
-typedef (*MethodVoid)();
-typedef (*MethodInt2)(int a,int b);
+typedef (*MethodArrayCount)(int[]);
+// typedef int (*MethodFactorialAndOwnStlLen)();
+// typedef void (*MethodSwap)(int &a,int &b);
+// typedef void (*MethodArrayCopy)(int* a,int* b,int c);
+// typedef void (*MethodDynamicArray)();
+// typedef void (*MethodPointerArray)(int *a,int b);
+// typedef int (*MethodElementeCtr)();
 
-
-void IniciateExecution(int arr[],int selected) {
-
-
-    int MethodN;
-
-
-    int sizeOfArraya =  sizeof(arr) / sizeof(arr[0]);
-
-    for(int i = 0; i < sizeOfArraya; i++) {
-        if(arr[i] == selected) {
-            MethodN = arr[i];
-
-            return;
-        }
-    }
-
-
-}
 
 int MainExecutionFunction() {
 
-    MethodArray Method[]={
-    ArrayCount,
-    };
 
-    string Methods[] ={'Array count','Factorial','Own String lenght','Swap Method'};
+    // MethodArrayCount InvokeArrayCount = ArrayCount;
+    //
+    // InvokeArrayCount();
+    //
+    //
+    //
+    // string Methods[] ={'Array count'};
+    //
+    //
+    //
+    // return 0;
 
 
-
-    return 0;
+    //TODO:Probably just gonna make a method that show all methods via cout and return the selected method
 }
 
 

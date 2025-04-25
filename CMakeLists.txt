@@ -12,7 +12,7 @@ add_executable(PriorityOperations main.cpp
         Head/C2/DynamicArray.h
         Head/C2/ArrayCopy.h
         Head/C3/Struct.h
-        Head/C3/Rectangle.h
+        Head/Class/Rectangle.h
         Head/C3/ElementCounter.h
         Head/ExectFunction/ExecutionFunction.h
 )
