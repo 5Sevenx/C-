@@ -64,7 +64,7 @@ int main() {
     // cout << "Perimeter: " << rec.perimeter() << endl;
     //
 
-    ElementeCtr();
+    // ElementeCtr();
     //------------------------------------------------------------------------------
 
    return 0;

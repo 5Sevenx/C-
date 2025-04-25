@@ -14,4 +14,5 @@ add_executable(PriorityOperations main.cpp
         Head/C3/Struct.h
         Head/C3/Rectangle.h
         Head/C3/ElementCounter.h
+        Head/ExectFunction/ExecutionFunction.h
 )
