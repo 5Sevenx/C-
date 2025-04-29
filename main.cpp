@@ -22,7 +22,7 @@ using namespace std;
 
 int main() {
 
-
+   MainExecutionFunction();
 
 
    return 0;
