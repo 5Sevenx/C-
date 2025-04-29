@@ -24,5 +24,11 @@ Ive just found some cases to work on. I think parts of my code can be used as a 
 │   └──Rectangle
 │      Struct
 │      ElementeCtr
+│
+├── Class/
+│   └──All files related with class
+│
+├──ExectFunction
+│   └──Execution method
 ```
 
