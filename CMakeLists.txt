@@ -15,4 +15,9 @@ add_executable(PriorityOperations main.cpp
         Head/Class/Rectangle.h
         Head/C3/ElementCounter.h
         Head/ExectFunction/ExecutionFunction.h
+        Head/ExectFunction/SideMethods/Case1.h
+        Head/ExectFunction/SideMethods/Case4.h
+        Head/ExectFunction/SideMethods/Case5.h
+        Head/ExectFunction/SideMethods/Case7.h
+        Head/ExectFunction/SideMethods/Case9.h
 )

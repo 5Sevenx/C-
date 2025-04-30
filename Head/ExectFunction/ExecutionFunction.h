@@ -7,17 +7,26 @@
 #include <vector>
 
 #include "../C1/ArrayCount.h"
-
+#include "../C1/Swap.h"
+#include "SideMethods/Case1.h"
+#include "SideMethods/Case4.h"
+#include "SideMethods/Case5.h"
+#include "SideMethods/Case7.h"
+#include "SideMethods/Case9.h"
 
 using namespace std;
 
-const int MAX_SIZE_OF_ARRAY_ARRAYMETHOD = 100;
 
-inline int MainExecutionFunction() {
+
+inline void MainExecutionFunction() {
 
     int selectmethod;
 
-    string methods[] = {"Array Count","Factorial","Own String length","Swap"};
+    string methods[] = {
+        "Array Count","Factorial","Own String length",
+        "Swap","Array Copy","Dynamic Array",
+        "Pointer Array"
+    };
 
     cout << "Methods:" << endl;
 
@@ -31,30 +40,15 @@ inline int MainExecutionFunction() {
 
     switch (selectmethod) {
         default: cout << "no such method";
-    case 1:
-        int ArrayC1[MAX_SIZE_OF_ARRAY_ARRAYMETHOD];
-        int UsedSizeOfArrayC1;
-        cout << "Enter the size of the array(Max:" << MAX_SIZE_OF_ARRAY_ARRAYMETHOD << ")"  << endl;
-        cin >> UsedSizeOfArrayC1;
-
-        if (UsedSizeOfArrayC1 > MAX_SIZE_OF_ARRAY_ARRAYMETHOD || UsedSizeOfArrayC1 < 1) {
-            cout << "Invalid size of array" << endl;
-            return 1;
-        }
-
-        for (int i = 0; i < UsedSizeOfArrayC1; i++) {
-            cout << "Element " << i << ":";
-            cin >> ArrayC1[i];
-        }
-
-        ArrayCount(ArrayC1, UsedSizeOfArrayC1);break;
-
-
-        case 2:
-            Factorital();break;
-
-        case 3:
-            OwnStrLen();break;
+    case 1:Case1();break;
+    case 2:Factorital();break;
+    case 3:OwnStrLen();break;
+    case 4:Case4();break;
+    case 5:Case5();break;
+    case 6:DynamicArray();break;
+    case 7:Case7();break;
+    case 8:ElementeCtr();break;
+        case 9: Case9();break;
     }
 
 

@@ -31,7 +31,7 @@ class ElementCounter {
 #endif
 
 
-int ElementeCtr() {
+inline int ElementeCtr() {
 
     ElementCounter e1;
     ElementCounter e2;
