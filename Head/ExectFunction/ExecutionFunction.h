@@ -11,7 +11,7 @@
 
 using namespace std;
 
-const int MAX_SIZE = 100;
+const int MAX_SIZE_OF_ARRAY_ARRAYMETHOD = 100;
 
 inline int MainExecutionFunction() {
 
@@ -22,41 +22,41 @@ inline int MainExecutionFunction() {
     cout << "Methods:" << endl;
 
     for (int i = 0; i < size(methods); i++) {
-        cout << i << "." << methods[i] << endl;
+        cout << i + 1 << "." << methods[i] << endl;
     }
     cout << "Enter the method choice:";
     cin >> selectmethod;
 
 
 
-
-    int sizeOfArrayC1;
-
-
-
     switch (selectmethod) {
         default: cout << "no such method";
     case 1:
-        cout << "Enter size of array (Max size: " << MAX_SIZE << "):";
+        int ArrayC1[MAX_SIZE_OF_ARRAY_ARRAYMETHOD];
+        int UsedSizeOfArrayC1;
+        cout << "Enter the size of the array(Max:" << MAX_SIZE_OF_ARRAY_ARRAYMETHOD << ")"  << endl;
+        cin >> UsedSizeOfArrayC1;
 
-        cin >> sizeOfArrayC1;
-
-        if (sizeOfArrayC1 > MAX_SIZE || sizeOfArrayC1 <= 0) {
-            cout << "Array size is greater than max size!" << endl;
+        if (UsedSizeOfArrayC1 > MAX_SIZE_OF_ARRAY_ARRAYMETHOD || UsedSizeOfArrayC1 < 1) {
+            cout << "Invalid size of array" << endl;
             return 1;
         }
 
-        int arrayC12[MAX_SIZE];
-
-        for (int i = 0; i < sizeOfArrayC1; i++) {
-            cout << "Enter array el: " << i << ":  ";
-            cin >> arrayC12[i];
+        for (int i = 0; i < UsedSizeOfArrayC1; i++) {
+            cout << "Element " << i << ":";
+            cin >> ArrayC1[i];
         }
 
+        ArrayCount(ArrayC1, UsedSizeOfArrayC1);break;
 
-        ArrayCount(arrayC12);
-        break;
+
+        case 2:
+            Factorital();break;
+
+        case 3:
+            OwnStrLen();break;
     }
+
 
 }
 

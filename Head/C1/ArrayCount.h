@@ -1,12 +1,12 @@
 #ifndef ArrCnt_h
 #define ArrCnt_h
 
-template<int NumberEArray>
-// TODO: Change properties: pass array size directly to avoid issues.
-int ArrayCount(int (&arr)[NumberEArray]) {
+template<int N>
+
+int ArrayCount(int (&arr)[N],int usedSize) {
     int sum = 0;
 
-    for (int i = 0; i < NumberEArray; ++i) sum += arr[i];
+    for (int i = 0; i < usedSize; ++i) sum += arr[i];
 
     cout << sum << endl;
 

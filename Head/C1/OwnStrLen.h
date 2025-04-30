@@ -1,12 +1,13 @@
 #ifndef StrLen_h
 #define StrLen_h
 
-int StringLength( const char* ch );
+int StringLength(const char* ch );
 
 
 inline int OwnStrLen() {
 
     cout << "Enter a string, and I will output the number of characters contained therein.\n" ;
+
 
     char ch[50] = {} ;
 
