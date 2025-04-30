@@ -1,7 +1,7 @@
 
-# C++ challenges
+# C++ cases
 
-Ive just found some challenges to work on. I think parts of my code can be used as a reference in some way.
+Ive just found some cases to work on. I think parts of my code can be used as a reference in some way.
 
 
 ## Structure
@@ -24,5 +24,11 @@ Ive just found some challenges to work on. I think parts of my code can be used 
 │   └──Rectangle
 │      Struct
 │      ElementeCtr
+│
+├── Class/
+│   └──All files related with class
+│
+├──ExectFunction
+│   └──Execution method
 ```
 
