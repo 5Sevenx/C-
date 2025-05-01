@@ -4,7 +4,7 @@
 
 #include <iostream>
 using namespace std;
-#include "../../C3/Struct.h"
+#include "Methods/C3/Struct.h"
 
 inline void Case9() {
     int nForCreateStudent;

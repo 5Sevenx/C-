@@ -3,6 +3,7 @@
 
 template<int N>
 
+
 int ArrayCount(int (&arr)[N],int usedSize) {
     int sum = 0;
 

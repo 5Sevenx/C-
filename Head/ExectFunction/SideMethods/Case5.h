@@ -3,7 +3,7 @@
 #define CASE5_H
 #include<iostream>
 using namespace std;
-#include "../../C2/ArrayCopy.h"
+#include "Methods/C2/ArrayCopy.h"
 
 inline void Case5() {
     int SizeOfArrayForCopy;

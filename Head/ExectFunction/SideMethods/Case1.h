@@ -4,7 +4,7 @@
 
 using namespace std;
 #include <iostream>
-#include "../../C1/ArrayCount.h"
+#include "Methods/C1/ArrayCount.h"
 const int MAX_SIZE_OF_ARRAY_ARRAYMETHOD = 100;
 
 inline int Case1() {
@@ -24,5 +24,6 @@ inline int Case1() {
     }
 
     ArrayCount(ArrayC1, UsedSizeOfArrayC1);
+    return 0;
 };
 #endif //CASE1_H

@@ -7,7 +7,7 @@
 
 #include<iostream>
 using namespace std;
-#include "../../C2/PointerArray.h"
+#include "Methods/C2/PointerArray.h"
 
 inline void Case7() {
     int SizeOfArrayForCopy;

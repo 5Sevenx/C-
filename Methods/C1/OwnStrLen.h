@@ -1,15 +1,21 @@
 #ifndef StrLen_h
 #define StrLen_h
-
+#include <limits>
+using namespace std;
+#include <iostream>
 int StringLength(const char* ch );
 
 
 inline int OwnStrLen() {
 
-    cout << "Enter a string, and I will output the number of characters contained therein.\n" ;
+    cout << "Enter a string, and I will output the number of characters contained therein: " ;
+
+    //clean input before this method
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
 
     char ch[50] = {} ;
+
 
     cin.getline( ch, sizeof(ch) );
 

@@ -6,8 +6,10 @@
 #include <string>
 #include <vector>
 
-#include "../C1/ArrayCount.h"
-#include "../C1/Swap.h"
+#include "Methods/C1/OwnStrLen.h"
+#include "Methods/C2/DynamicArray.h"
+#include "Methods/C3/ElementCounter.h"
+#include "Methods/C1/Factorial.h"
 #include "SideMethods/Case1.h"
 #include "SideMethods/Case4.h"
 #include "SideMethods/Case5.h"
@@ -39,18 +41,17 @@ inline void MainExecutionFunction() {
 
 
     switch (selectmethod) {
-        default: cout << "no such method";
-    case 1:Case1();break;
-    case 2:Factorital();break;
-    case 3:OwnStrLen();break;
-    case 4:Case4();break;
-    case 5:Case5();break;
-    case 6:DynamicArray();break;
-    case 7:Case7();break;
-    case 8:ElementeCtr();break;
-        case 9: Case9();break;
+        case 1: Case1(); break;
+        case 2: Factorital(); break;
+        case 3: OwnStrLen(); break;
+        case 4: Case4(); break;
+        case 5: Case5(); break;
+        case 6: DynamicArray(); break;
+        case 7: Case7(); break;
+        case 8: ElementeCtr(); break;
+        case 9: Case9(); break;
+        default: cout << "no such method"; break;
     }
-
 
 }
 

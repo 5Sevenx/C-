@@ -4,7 +4,7 @@
 
 #include<iostream>
 using namespace std;
-#include "../../C1/Swap.h"
+#include "Methods/C1/Swap.h"
 
 inline void Case4() {
     int a,b;
