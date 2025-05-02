@@ -1,7 +1,6 @@
 #ifndef EXECUTIONFUNCTION_H
 #define EXECUTIONFUNCTION_H
 
-#include <functional>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -10,6 +9,7 @@
 #include "Methods/C2/DynamicArray.h"
 #include "Methods/C3/ElementCounter.h"
 #include "Methods/C1/Factorial.h"
+#include "Methods/C4/SwapT&.h"
 #include "SideMethods/Case1.h"
 #include "SideMethods/Case4.h"
 #include "SideMethods/Case5.h"
@@ -27,7 +27,7 @@ inline void MainExecutionFunction() {
     string methods[] = {
         "Array Count","Factorial","Own String length",
         "Swap","Array Copy","Dynamic Array",
-        "Pointer Array"
+        "Pointer Array", "Element counter","Struct","Swap T type"
     };
 
     cout << "Methods:" << endl;
@@ -50,6 +50,7 @@ inline void MainExecutionFunction() {
         case 7: Case7(); break;
         case 8: ElementeCtr(); break;
         case 9: Case9(); break;
+        case 10: SwapInit(); break;
         default: cout << "no such method"; break;
     }
 
