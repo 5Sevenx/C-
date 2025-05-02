@@ -8,27 +8,33 @@ Ive just found some cases to work on. I think parts of my code can be used as a 
 
 
 ```text
-├── C1/
-│   └── Factorial
-│       StringLength(own strlen)
-│       Swap
-│       Array count
+├── Head/
+│   ├── Class/
+│   │   └── Rectangle
+│   │
+│   ├── ExectFunction/
+│       ├── ExecutionFunction
+│       └── SideMethods/
+│           ├── Case1
+│           ├── Case4
+│           ├── Case5
+│           ├── Case7
+│           └── Case9
 │
-├── C2/
-│   └──Array ptr count
-│      Dynamic Array
-│      Array copy
-│
-│
-├── C3/
-│   └──Rectangle
-│      Struct
-│      ElementeCtr
-│
-├── Class/
-│   └──All files related with class
-│
-├──ExectFunction
-│   └──Execution method
+├── Methods/
+│   ├── C1/
+│   │   ├── ArrayCount
+│   │   ├── Factorial
+│   │   ├── OwnStrLen
+│   │   └── Swap
+│   │
+│   ├── C2/
+│   │   ├── ArrayCopy
+│   │   ├── DynamicArray
+│   │   └── PointerArray
+│   │
+│   └── C3/
+│       ├── ElementCounter
+│       └── Struct
 ```
 
