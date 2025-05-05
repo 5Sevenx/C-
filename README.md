@@ -14,13 +14,7 @@ Ive just found some cases to work on. I think parts of my code can be used as a 
 │   │   └── Stack
 │   │
 │   ├── ExectFunction/
-│       ├── ExecutionFunction
-│       └── SideMethods/
-│           ├── Case1
-│           ├── Case4
-│           ├── Case5
-│           ├── Case7
-│           └── Case9
+│       └── ExecutionFunction
 │
 ├── Methods/
 │   ├── C1/
