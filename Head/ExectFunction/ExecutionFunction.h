@@ -43,13 +43,13 @@ inline void MainExecutionFunction() {
 
     switch (selectmethod) {
         case 1: InitArrayCout(); break;
-        case 2: Factorital(); break;
-        case 3: OwnStrLen(); break;
+        case 2: InitFactorial(); break;
+        case 3: InitOwnStrLen(); break;
         case 4: InitSwap(); break;
         case 5: InitArrayCopy(); break;
-        case 6: DynamicArray(); break;
+        case 6: InitDynamicArray(); break;
         case 7: InitPointerArray(); break;
-        case 8: ElementeCtr(); break;
+        case 8: InitElementCounter(); break;
         case 9: InitCreateStudent(); break;
         case 10: SwapInit(); break;
         default: cout << "no such method"; break;

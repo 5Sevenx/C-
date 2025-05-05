@@ -5,11 +5,7 @@
 
 using namespace std;
 
-inline void DynamicArray() {
-    int size;
-
-    cout << "Enter size of array: " << endl;
-    cin >> size;
+inline void DynamicArray(int size) {
 
     int* array = new int [size];
 
@@ -24,6 +20,14 @@ inline void DynamicArray() {
 
     delete[] array;
 
+}
+
+inline void InitDynamicArray() {
+    int size;
+
+    cout << "Enter size of array: " << endl;
+    cin >> size;
+    DynamicArray(size);
 }
 
 #endif

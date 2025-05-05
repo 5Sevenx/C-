@@ -6,7 +6,7 @@ using namespace std;
 int StringLength(const char* ch );
 
 
-inline int OwnStrLen() {
+inline int InitOwnStrLen() {
 
     cout << "Enter a string, and I will output the number of characters contained therein: " ;
 

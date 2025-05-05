@@ -5,15 +5,12 @@
 
 using namespace std;
 
-inline int Factorital() {
-   int n;
-   cout << "Enter a number to make a factorial:";
-   cin >> n;
+inline void Factorital(int n) {
    int f = 1;
 
    if (n == 0) {
       cout << "The number must be greater than 0" << endl;
-      return 1;
+      return;
    }
 
 
@@ -24,7 +21,14 @@ inline int Factorital() {
    }
    cout << " = " << f << endl;
 
-   return 0;
+}
+
+inline void InitFactorial() {
+   int n;
+   cout << "Enter a number to make a factorial:";
+   cin >> n;
+   Factorital(n);
+
 }
 
 #endif
