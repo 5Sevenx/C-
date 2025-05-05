@@ -6,7 +6,7 @@
 
 #include <stack>
 using namespace std;
-template <class T>
+template <typename T>
 
 
 void ExceptionStak(stack<T>& s) {

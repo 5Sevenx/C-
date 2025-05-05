@@ -36,16 +36,11 @@ inline void CreateStudent(int size) {
 }
 
 
-inline int Struct() {
-
-    int NOfStudents;
-    cout << "Enter number of students:" << endl;
-    cin >> NOfStudents;
-
-    CreateStudent(NOfStudents);
-
-
-    return 0;
+inline void InitCreateStudent() {
+    int nForCreateStudent;
+    cout << "Enter number of students that you want to add:";
+    cin >> nForCreateStudent;
+    CreateStudent(nForCreateStudent);
 }
 
 
