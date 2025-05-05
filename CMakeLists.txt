@@ -24,4 +24,5 @@ add_executable(PriorityOperations main.cpp
         Head/ExectFunction/SideMethods/Case9.h
         Methods/C4/SwapT&.h
         Head/Class/StackT.h
+        Methods/C4/ExceptionStak.h
 )

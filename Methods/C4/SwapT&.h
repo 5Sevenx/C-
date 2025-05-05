@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 template<class T>
-void swap(T a,T b) {
+void swap(T &a,T &b) noexcept {
     T aux(a);
     a=b;
     b=aux;
