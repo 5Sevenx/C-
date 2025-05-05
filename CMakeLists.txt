@@ -17,9 +17,10 @@ add_executable(PriorityOperations main.cpp
         Methods/C3/ElementCounter.h
         Head/Class/Rectangle.h
         Head/ExectFunction/ExecutionFunction.h
-        Head/ExectFunction/SideMethods/Case7.h
-        Head/ExectFunction/SideMethods/Case9.h
         Methods/C4/SwapT&.h
         Head/Class/StackT.h
         Methods/C4/ExceptionStak.h
+        Methods/C4/Stack.h
+        Service/stack_input.h
+        Service/touppercase.h
 )

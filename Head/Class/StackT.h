@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <stdexcept>
+#include <iostream>
 using namespace std;
 template <typename T>
 class Stack {
@@ -31,6 +32,8 @@ class Stack {
         return d.size();
     }
 };
+
+
 
 
 #endif

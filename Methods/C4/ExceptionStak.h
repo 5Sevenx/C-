@@ -5,6 +5,8 @@
 #include <ostream>
 
 #include <stack>
+
+#include "Service/stack_input.h"
 using namespace std;
 template <typename T>
 
@@ -30,30 +32,12 @@ inline void InitExceptionStak() {
     cin >> choise;
 
     if ( choise == 1 ) {
-        int numint;
-        int stackrange;
-        cout << "Enter stack length:" << endl;
-        cin >> stackrange;
-
-        for (int i = 0; i < stackrange; i++) {
-            cout << "Enter stack number " << i + 1 << ": ";
-            cin >> numint;
-            iS.push(numint);
-        }
+        stackInput(iS);
         cout << "Exeption stak initialized." << endl;
 
         ExceptionStak(iS);
     }else if ( choise == 2 ) {
-        string numint;
-        int stackrange;
-        cout << "Enter stack length:" << endl;
-        cin >> stackrange;
-
-        for (int i = 0; i < stackrange; i++) {
-            cout << "Enter stack number " << i + 1 << ": ";
-            cin >> numint;
-            sS.push(numint);
-        }
+        stackInput(sS);
         cout << "Exeption stak initialized." << endl;
 
         ExceptionStak(sS);

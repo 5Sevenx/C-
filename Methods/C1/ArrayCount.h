@@ -1,6 +1,7 @@
 #ifndef ArrCnt_h
 #define ArrCnt_h
 
+using namespace std;
 template<int N>
 int ArrayCount(int (&arr)[N],int usedSize) {
     int sum = 0;
