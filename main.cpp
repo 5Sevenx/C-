@@ -10,9 +10,9 @@ using namespace std;
 
 int main() {
 
-   // MainExecutionFunction();
+   MainExecutionFunction();
 
-   InitStack();
+
 
    return 0;
 }

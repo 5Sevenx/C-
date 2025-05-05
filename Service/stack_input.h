@@ -27,7 +27,7 @@ void stackInput(stack<T> &a) {
     else if constexpr (is_same<T, string>::value) {
         string numstr;
         for (int i = 0; i < stackrange; i++) {
-            cout << "Enter stack number " << i + 1 << ": ";
+            cout << "Enter stack string " << i + 1 << ": ";
             cin >> numstr;
             a.push(numstr);
         }
