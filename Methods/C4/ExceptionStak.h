@@ -18,8 +18,11 @@ void ExceptionStak(stack<T>& s) {
     };
 };
 
-template <typename T>
-void InitExceptionStak(stack<T>& s) {
+
+inline void InitExceptionStak() {
+
+    stack<int> iS;
+    stack<string> sS;
 
     int choise;
     cout << "Initialize stack,select type of data for stack: "<< endl << "1.Int"
@@ -35,8 +38,11 @@ void InitExceptionStak(stack<T>& s) {
         for (int i = 0; i < stackrange; i++) {
             cout << "Enter stack number " << i + 1 << ": ";
             cin >> numint;
-            s.push(numint);
+            iS.push(numint);
         }
+        cout << "Exeption stak initialized." << endl;
+
+        ExceptionStak(iS);
     }else if ( choise == 2 ) {
         string numint;
         int stackrange;
@@ -46,16 +52,17 @@ void InitExceptionStak(stack<T>& s) {
         for (int i = 0; i < stackrange; i++) {
             cout << "Enter stack number " << i + 1 << ": ";
             cin >> numint;
-            s.push(numint);
+            sS.push(numint);
         }
+        cout << "Exeption stak initialized." << endl;
+
+        ExceptionStak(sS);
     }else {
         cout << "Invalid choice." << endl;
         return;
     }
 
-    cout << "Exeption stak initialized." << endl;
 
-    ExceptionStak(s);
 
 };
 

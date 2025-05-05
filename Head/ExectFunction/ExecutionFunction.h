@@ -14,6 +14,7 @@
 #include "Methods/C2/ArrayCopy.h"
 #include "Methods/C2/PointerArray.h"
 #include "Methods/C3/Struct.h"
+#include "Methods/C4/ExceptionStak.h"
 #include "Methods/C4/SwapT&.h"
 
 
@@ -28,7 +29,8 @@ inline void MainExecutionFunction() {
     string methods[] = {
         "Array Count","Factorial","Own String length",
         "Swap","Array Copy","Dynamic Array",
-        "Pointer Array", "Element counter","Struct","Swap T type"
+        "Pointer Array", "Element counter","Struct","Swap T type",
+        "ExceptionStak"
     };
 
     cout << "Methods:" << endl;
@@ -52,6 +54,7 @@ inline void MainExecutionFunction() {
         case 8: InitElementCounter(); break;
         case 9: InitCreateStudent(); break;
         case 10: SwapInit(); break;
+        case 11: InitExceptionStak(); break;
         default: cout << "no such method"; break;
     }
 
