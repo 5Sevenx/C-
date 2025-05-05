@@ -11,6 +11,7 @@ Ive just found some cases to work on. I think parts of my code can be used as a 
 ├── Head/
 │   ├── Class/
 │   │   └── Rectangle
+│   │   └── Stack
 │   │
 │   ├── ExectFunction/
 │       ├── ExecutionFunction
@@ -33,8 +34,11 @@ Ive just found some cases to work on. I think parts of my code can be used as a 
 │   │   ├── DynamicArray
 │   │   └── PointerArray
 │   │
-│   └── C3/
-│       ├── ElementCounter
-│       └── Struct
+│   ├── C3/
+│   │   ├── ElementCounter
+│   │   └── Struct
+│   │
+│   ├──C4/
+│   │   ├──SwapT&  
 ```
 
