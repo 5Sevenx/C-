@@ -23,4 +23,5 @@ add_executable(PriorityOperations main.cpp
         Methods/C4/Stack.h
         Service/stack_input.h
         Service/touppercase.h
+        Methods/C5/vector-map-set.h
 )

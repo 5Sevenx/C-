@@ -17,6 +17,7 @@
 #include "Methods/C4/ExceptionStak.h"
 #include "Methods/C4/Stack.h"
 #include "Methods/C4/SwapT&.h"
+#include "Methods/C5/vector-map-set.h"
 
 
 using namespace std;
@@ -31,7 +32,7 @@ inline void MainExecutionFunction() {
         "Array Count","Factorial","Own String length",
         "Swap","Array Copy","Dynamic Array",
         "Pointer Array", "Element counter","Struct","Swap T type",
-        "ExceptionStak", "Stack"
+        "ExceptionStak", "Stack", "Vector sort"
     };
 
     cout << "Methods:" << endl;
@@ -57,6 +58,7 @@ inline void MainExecutionFunction() {
         case 10: SwapInit(); break;
         case 11: InitExceptionStak(); break;
         case 12: InitStack(); break;
+        case 13: InitVector(); break;
         default: cout << "no such method"; break;
     }
 

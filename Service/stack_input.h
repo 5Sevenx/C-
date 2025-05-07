@@ -5,6 +5,8 @@
 #include <stack>
 #include <string>
 #include <type_traits>
+
+#include "Head/Class/StackT.h"
 using namespace std;
 
 template <typename T>
