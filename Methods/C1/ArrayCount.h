@@ -32,6 +32,7 @@ inline int InitArrayCout() {
     }
     ArrayCount(ArrayC1, UsedSizeOfArrayC1);
     return 0;
+
 }
 
 #endif
