@@ -9,12 +9,12 @@ Ive just found some cases to work on. I think parts of my code can be used as a 
 
 ```text
 ├── Class/
-│   ├── Class/
-│       └── Rectangle
+│   └── Class/
+│       ├── Rectangle
 │       └── Stack
 │
 ├── Head/
-│   ├── ExectFunction/
+│   └── ExectFunction/
 │       └── ExecutionFunction
 │
 ├── Methods/
@@ -33,9 +33,16 @@ Ive just found some cases to work on. I think parts of my code can be used as a 
 │   │   ├── ElementCounter
 │   │   └── Struct
 │   │
+│   │
 │   ├──C4/
 │   │   ├──SwapT&
-│   │   └── ExceptionStak
+│   │   ├── ExceptionStak
 │   │   └── Stack
+│   │
+│   │
+│   ├──C5/
+│   │   ├── vector-map-ser
+│   │   ├── WordRepeat
+
 ```
 
