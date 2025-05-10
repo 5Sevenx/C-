@@ -24,4 +24,5 @@ add_executable(PriorityOperations main.cpp
         Service/stack_input.h
         Service/touppercase.h
         Methods/C5/vector-map-set.h
+        Methods/C5/WordRepeat.h
 )
